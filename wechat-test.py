@@ -76,6 +76,7 @@ def send_msg(title, content):
     payload = {
         "touser":"WangMeng",
         "toparty":"1",
+        #建议将touser和toparty两个参数都填写上
         "msgtype":"text",
         "agentid":"1000002",
         #"content":"112233",
